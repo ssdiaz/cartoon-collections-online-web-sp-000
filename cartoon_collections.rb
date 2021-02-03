@@ -6,12 +6,8 @@ def summon_captain_planet(planteer_calls)
   planteer_calls.map! { |element| element.capitalize + "!"}
 end
 
-def long_planeteer_calls(calls)
-  if calls.each.length > 4
-    true
-  else
-    false
-  end
+def long_planeteer_calls(calls_array)
+  calls_array.any? { |call| call.length > 4}
 end
 
 def find_the_cheese# code an argument here
