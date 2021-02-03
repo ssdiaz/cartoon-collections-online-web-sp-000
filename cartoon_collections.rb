@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(planteer_calls)
-  planteer_calls.map! { |element| element.capitalize}
+  planteer_calls.map! { |element| element.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls)
