@@ -19,7 +19,7 @@ def find_the_cheese(strings)
 # end
  strings.find do |item|
 #   item.include?(cheese_types)
-# end 
+# end
 # end
   #strings.include? {|item| item.find(cheese_types)}
     if item.include(cheese_types)
@@ -28,4 +28,3 @@ def find_the_cheese(strings)
       false
     end
   end
-
