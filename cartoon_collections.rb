@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  array.each_with_object.map do |name|
+  array.each_with_index do |name, index|
     puts "#{name+1}"
   end
 end
